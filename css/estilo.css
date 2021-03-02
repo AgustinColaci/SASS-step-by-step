@@ -1,0 +1,62 @@
+/*-----FONT LATO-----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+/*-----RESET-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.171);
+    padding: 5px;
+    border-radius: 5px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1, .layout {
+    padding: 10px;
+    background-color: rgba(21, 255, 0, 0.527);
+}
+section {
+    padding: 50px;
+    font-size:  2rem;
+}
+
+section ol li {    
+    list-style: decimal;
+}
+
+.comandos li{
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+.layout p {
+    font-size: 1.2rem;
+}
