@@ -41,7 +41,8 @@ body {
 
 h1, .layout {
     padding: 10px;
-    background-color: rgba(21, 255, 0, 0.527);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 section {
     padding: 50px;
@@ -59,4 +60,12 @@ section ol li {
 
 .layout p {
     font-size: 1.2rem;
+}
+
+.layout p a {
+    color: white;
+}
+
+.layout p a:hover {
+    color: red;
 }
