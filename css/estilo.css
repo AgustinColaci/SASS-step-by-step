@@ -69,3 +69,17 @@ section ol li {
 .layout p a:hover {
     color: red;
 }
+
+.build__watch li {
+    border: 1px solid black;
+    display: flex;
+    width: 40%;
+    padding: 1rem 0 0 4rem;
+    margin-top: 2rem;
+    background-color: rgb(226, 226, 226);
+}
+
+.build__watch li p{
+    width: auto;
+    display: block;
+}

@@ -29,12 +29,15 @@
           <li>
             Pegar la linea de build-css y watch-css
             debajo de "test" (agregar una "," al final de esta linea).
-          <ol class="comandos">
+          <ol class="comandos build__watch">
             <li>
-              "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",<br>
-"watch-css": "nodemon -e scss -x \"npm run build-css\""
+              <p>
+                "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",<br>
+                "watch-css": "nodemon -e scss -x \"npm run build-css\""
+              </p>
             </li>
           </ol></li>
+          <li>Verificar que los nombres de los archivos CSS y SCSS sean los correctos en la línea "build-css".</li>
           <li>Ejecutar el último comando y empezar a trabajar
             <ol class="comandos">
               <li><strong>npm run watch-css</strong></li>
